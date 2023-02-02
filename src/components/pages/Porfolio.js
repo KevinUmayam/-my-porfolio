@@ -1,10 +1,11 @@
-import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
+// import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
+import Slider from './Slider'
 
-
-export default function Porfolio() {
+export default function Portfolio() {
   return (
     <div className="Pbackground">
-      Porfolio
+      Portfolio
+      <Slider />
     </div>
   );
 }

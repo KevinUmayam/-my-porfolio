@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import AboutMe from "./pages/AboutMe";
-import Porfolio from "./pages/Porfolio";
+import Portfolio from "./pages/Porfolio";
 import Resume from "./pages/Resume";
 import NavTabs from "./NavTabs"
-import "../index.css"
+import Footer from "./pages/components/Footer";
 
 export default function MainContainer() {
   const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -13,8 +13,8 @@ export default function MainContainer() {
     switch (currentPage) {
       case "AboutMe":
         return <AboutMe />;
-      case "Porfolio":
-        return <Porfolio />;
+      case "Portfolio":
+        return <Portfolio />;
       case "Resume":
         return <Resume />;
       default:
@@ -30,6 +30,7 @@ export default function MainContainer() {
       <NavTabs currentPage={currentPage} pageSetter={pageSetter} />
 
       {renderPage()}
+      {currentPage !== "AboutMe" ? <Footer /> : null}
     </div>
   );
 }
