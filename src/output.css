@@ -12,15 +12,25 @@ body {
 /* custom css from page i liked */
 .icons {
   color: #ffffffd0;
+  width: 5.5vh;
+  height: 5.5vh;
+  transition: all 0.2s ease-in-out;
+  opacity: .90;
+}
+.iconsA {
+  color: #d4d4d4d0;
   width: 6.5vh;
   height: 6.5vh;
   transition: all 0.2s ease-in-out;
-  opacity: .90;
+
 }
 .icons:hover {
   transform: scale(1.2);
 }
 
+.iconsA:hover {
+  transform: scale(1.2);
+}
 .Rbackground {
   background-image: url("https://images.pexels.com/photos/10505823/pexels-photo-10505823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-repeat: no-repeat;

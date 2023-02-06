@@ -25,7 +25,7 @@ export default function Resume() {
               className="aStyle"
               target="_blank"
               rel="noreferrer"
-              href="https://docs.google.com/document/d/1mlsF9I6ojmnCectHfj89Ig477aHB9UEwPAHqn7CRI0c/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1tXLCPJ_86bF0-T02X876Hfj7-QM1jvlv/view?usp=sharing"
             >
               <h1 className="rText text-xl  md:text-3xl md:px-3">My Resume</h1>
             </a>

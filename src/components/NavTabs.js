@@ -27,7 +27,7 @@ function NavTabs({ currentPage, pageSetter }) {
   }
   return (
     <div>
-      <nav className="bg-black text-white flex justify-between items-center h-16  mx-auto px-6 border-b-2 border-custom-color shadow-custom-color z-999" >
+      <nav className="bg-black text-white flex justify-between items-center h-16  mx-auto px-6 border-b-4 border-double border-custom-color shadow-custom-color z-999" >
         <h1 className="w-full text-3xl font-bold p-4  md:text-4xl ">Kevin Umayam</h1>
         <ul className=" hidden md:flex uppercase text-white " >
           <li >
