@@ -41,7 +41,7 @@ const ProjectSlider = () => {
             <div className='hidden group-hover:block absolute top-[53%] -translate-x-0 translate-y-[-50%] right-4 text-2xl rounded-full pl-6 pr-10 pt-8 pb-8 bg-custom-color blur-sm text-white cursor-pointer'>
 
             </div>
-            <BiRightArrow className='hidden group-hover:block absolute top-[53%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 pl-3 bg-black text-white cursor-pointer' size={55} />
+            <BiRightArrow className='hidden group-hover:block absolute top-[53%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 pl-3 bg-black text-white cursor-pointer' onClick={nextSlide} size={55} />
         </div >
     );
 };
