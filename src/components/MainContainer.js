@@ -30,7 +30,7 @@ export default function MainContainer() {
       <NavTabs currentPage={currentPage} pageSetter={pageSetter} />
 
       {renderPage()}
-      {currentPage !== "AboutMe" ? <Footer /> : null}
+      {/* {currentPage !== "AboutMe" ? <Footer /> : null} */}
     </div>
   );
 }
