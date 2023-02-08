@@ -43,7 +43,14 @@ const ProjectSlider = () => {
                         <a
                             target="_blank"
                             href="https://github.com/KevinUmayam/5-6-7-8"
-                            className="pl-6 text-custom-color hover:">Github   repo link</a>
+                            className="pl-6 text-custom-color  
+                            opacity-90
+                            hover:opacity-100 
+                            text-base
+                            hover:text-lg
+                            duration-1000
+                            hover:duration-100
+                             ">Github   repo link</a>
                     </div>
                 );
             case 1:
