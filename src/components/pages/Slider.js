@@ -33,17 +33,107 @@ const ProjectSlider = () => {
         switch (currentIndex) {
             case 0:
                 return (
-                    <div className="flex items-center">
-                        <p className="pr-6 text-white flex items-center space-x-5">
-                            <span className=" flex items-center space-x-5">
-                                <TbSocial className="h-8 w-8 mr-4 text-white " /></span>
+                    <div className="flex items-center sm:flex-row flex-col ">
+                        <p className="sm:pr-6 text-white sm:flex items-center sm:space-x-5 ">
+                            <span className=" items-center sm:space-x-5">
+                                <TbSocial className=" invisible sm:visible h-8 w-8 mr-4 text-white " /></span>
                             App : 5-6-7-8
                         </p>
-                        <div className="text-custom-color text-2xl ">|</div>
+                        <div className="text-custom-color text-2xl invisible sm:visible">|</div>
                         <a
                             target="_blank"
+                            rel="noreferrer"
                             href="https://github.com/KevinUmayam/5-6-7-8"
-                            className="pl-6 text-custom-color  
+                            className="sm:pl-6 text-custom-color  
+                            opacity-90
+                            hover:opacity-100 
+                            text-base
+                            hover:text-lg
+                            duration-1000
+                            hover:duration-100
+                            ">Github   repo link</a>
+                    </div>
+                );
+            case 1:
+                return (
+                    <div className="flex items-center sm:flex-row flex-col ">
+                        <p className="sm:pr-6 text-white sm:flex items-center sm:space-x-5 ">
+                            <span className=" items-center sm:space-x-5">
+                                <TbSocial className=" invisible sm:visible h-8 w-8 mr-4 text-white " /></span>
+                            App : AirDnD
+                        </p>
+                        <div className="text-custom-color text-2xl invisible sm:visible">|</div>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/nbwong1/airDND"
+                            className="sm:pl-6 text-custom-color  
+                            opacity-90
+                            hover:opacity-100 
+                            text-base
+                            hover:text-lg
+                            duration-1000
+                            hover:duration-100
+                            ">Github   repo link</a>
+                    </div>
+                ); case 2:
+                return (
+                    <div className="flex items-center sm:flex-row flex-col ">
+                        <p className="sm:pr-6 text-white sm:flex items-center sm:space-x-5 ">
+                            <span className=" items-center sm:space-x-5">
+                                <TbSocial className=" invisible sm:visible h-8 w-8 mr-4 text-white " /></span>
+                            App : Weather Dashboard
+                        </p>
+                        <div className="text-custom-color text-2xl invisible sm:visible">|</div>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/KevinUmayam/Weather-App"
+                            className="sm:pl-6 text-custom-color  
+                            opacity-90
+                            hover:opacity-100 
+                            text-base
+                            hover:text-lg
+                            duration-1000
+                            hover:duration-100
+                            ">Github   repo link</a>
+                    </div>
+                ); case 3:
+                return (
+                    <div className="flex items-center sm:flex-row flex-col ">
+                        <p className="sm:pr-6 text-white sm:flex items-center sm:space-x-5 ">
+                            <span className=" items-center sm:space-x-5">
+                                <TbSocial className=" invisible sm:visible h-8 w-8 mr-4 text-white " /></span>
+                            App : Fit-Food
+                        </p>
+                        <div className="text-custom-color text-2xl invisible sm:visible">|</div>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/KevinUmayam/Fit-Food"
+                            className="sm:pl-6 text-custom-color  
+                            opacity-90
+                            hover:opacity-100 
+                            text-base
+                            hover:text-lg
+                            duration-1000
+                            hover:duration-100
+                            ">Github   repo link</a>
+                    </div>
+                ); case 4:
+                return (
+                    <div className="flex items-center sm:flex-row flex-col ">
+                        <p className="sm:pr-6 text-white sm:flex items-center sm:space-x-5 ">
+                            <span className=" items-center sm:space-x-5">
+                                <TbSocial className=" invisible sm:visible h-8 w-8 mr-4 text-white " /></span>
+                            App : Team Genrator
+                        </p>
+                        <div className="text-custom-color text-2xl invisible sm:visible">|</div>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://github.com/KevinUmayam/Team_Profile_Generator"
+                            className="sm:pl-6 text-custom-color  
                             opacity-90
                             hover:opacity-100 
                             text-base
@@ -53,14 +143,12 @@ const ProjectSlider = () => {
                              ">Github   repo link</a>
                     </div>
                 );
-            case 1:
-                return (<div className="text-white">airdnd</div>);
             default:
                 break;
         }
     };
     return (
-        <div>
+        <div className="bg-black h-screen ">
             <div >
                 <div className="grid gap-8 items-start justify-center">
                     <div className="relative group">
@@ -69,7 +157,7 @@ const ProjectSlider = () => {
                                 group-hover:opacity-100 transition duration-1000
                                 group-hover:duration-200
                             "></div>
-                        <button className=" relative px-7 py-4 bg-black rounded-lg leading-none flex items-center  ">
+                        <button className=" relative px-7 sm:py-4 pb-4 bg-black rounded-lg leading-none ">
                             {renderInfo()}
                         </button>
                     </div>
@@ -96,14 +184,15 @@ const ProjectSlider = () => {
                 </div>
                 <BiRightArrow className='hidden group-hover:block absolute top-[45%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 pl-3 bg-black text-white cursor-pointer' onClick={nextSlide} size={55} />
 
-                <div className='flex top-4 justify-center text-stone-100 w-fit m-auto mt-8
+                <div className='flex top-4 justify-center text-stone-100 w-fit m-auto mt-8 
             border-custom-color border-4 border-double rounded-full
             '>
                     {slides.map((slide, slideIndex) => (
                         <div
                             key={slideIndex}
                             onClick={() => goToSlide(slideIndex)}
-                            className='text-2xl cursor-pointer'
+                            className='text-2xl cursor-pointer '
+
                         >
                             <RxDotFilled />
                         </div>
