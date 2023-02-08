@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-porfolio/static/css/main.0599e9e6.css",
+    "main.js": "/my-porfolio/static/js/main.30636a69.js",
+    "static/media/WeatherApp.jpeg": "/my-porfolio/static/media/WeatherApp.9b35a94380016dad9aae.jpeg",
+    "static/media/AirDnD.jpeg": "/my-porfolio/static/media/AirDnD.d652fc9497ca33705c0a.jpeg",
+    "static/media/teamGen.jpeg": "/my-porfolio/static/media/teamGen.ce8d65d59dea216172b2.jpeg",
+    "static/media/fit-food.jpeg": "/my-porfolio/static/media/fit-food.729c6bfc85248a61911c.jpeg",
+    "static/media/5-6-7-8.jpeg": "/my-porfolio/static/media/5-6-7-8.a55f34ca5fccbead0ce6.jpeg",
+    "static/media/kevin.jpg": "/my-porfolio/static/media/kevin.922ce57ddc22ea375650.jpg",
+    "index.html": "/my-porfolio/index.html",
+    "main.0599e9e6.css.map": "/my-porfolio/static/css/main.0599e9e6.css.map",
+    "main.30636a69.js.map": "/my-porfolio/static/js/main.30636a69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0599e9e6.css",
+    "static/js/main.30636a69.js"
+  ]
+}
