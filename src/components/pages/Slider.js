@@ -66,7 +66,7 @@ const ProjectSlider = () => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href="https://github.com/nbwong1/airDND"
+                            href="https://github.com/KevinUmayam/airDND-1"
                             className="sm:pl-6 text-custom-color  
                             opacity-90
                             hover:opacity-100 
