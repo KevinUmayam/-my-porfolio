@@ -148,7 +148,7 @@ const ProjectSlider = () => {
         }
     };
     return (
-        <div className="bg-black h-screen ">
+        <div className="bg-black h-full pb-28">
             <div >
                 <div className="grid gap-8 items-start justify-center">
                     <div className="relative group">
@@ -164,7 +164,7 @@ const ProjectSlider = () => {
                 </div>
             </div>
 
-            <div className=' max-w-[1400px] h-[500px] w-full m-auto  px-4 relative group '>
+            <div className=' max-w-[1400px] h-[500px] w-full m-auto bg-black px-4 relative group pb-10 '>
                 <div
                     style={{
                         backgroundImage: `url(${slides[currentIndex]})`
@@ -184,8 +184,8 @@ const ProjectSlider = () => {
                 </div>
                 <BiRightArrow className='hidden group-hover:block absolute top-[45%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 pl-3 bg-black text-white cursor-pointer' onClick={nextSlide} size={55} />
 
-                <div className='flex top-4 justify-center text-stone-100 w-fit m-auto mt-8 
-            border-custom-color border-4 border-double rounded-full
+                <div className='flex justify-center text-stone-100 w-fit m-auto mt-8 
+            border-custom-color border-4 border-double rounded-full bg-black 
             '>
                     {slides.map((slide, slideIndex) => (
                         <div

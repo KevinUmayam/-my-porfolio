@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col w-128 h-screen  bg-black  items-center">
+    <div className="flex flex-col w-128 pb-4 h-full  bg-black  items-center">
       <div className=" invisible h-20 rText text-4xl font-bold pt-4 md:visible">
         <p >About Me</p>
       </div>
