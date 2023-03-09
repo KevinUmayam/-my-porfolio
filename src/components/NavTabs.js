@@ -52,7 +52,7 @@ function NavTabs({ currentPage, pageSetter }) {
               href="#portfolio"
               onClick={() => pageSetter("Portfolio")}
             >
-              Porfolio
+              Portfolio
             </a>
           </li>
 
